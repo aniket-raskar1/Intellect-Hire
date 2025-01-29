@@ -11,7 +11,7 @@ function InterviewItemCard({interview}) {
     router.push('/dashboard/interview/'+interview.mockId+'/feedback')
   }
   return (
-    <div className='border shadow-sm rounded-md p-3'>
+    <div className='border shadow-sm rounded-md p-3 hover:border-primary hover:scale-105'>
       <h2 className='font-bold text-primary'>{interview?.jobPosition}</h2>
       <h2 className='text-sm text-gray-500'>{interview.jobExperience} Years of Experience</h2>
       <h2 className='text-sm text-gray-400'>Created At {interview.createdAt}</h2>

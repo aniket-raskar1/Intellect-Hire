@@ -8,12 +8,13 @@ import React, { useEffect, useState } from 'react';
 import RecordAnswereSection from './_component/RecordAnswereSection';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { ArrowBigLeft, ArrowBigRight } from 'lucide-react';
 
 function StartInterview({params}) {
 
     const [interviewData,setInterviewData]=useState();
     const[mockInterviewQuetion,setMockInterviewQuetion]=useState();
-    const [activeQuetionIndex,setActiveQuetionIndex]=useState(1);
+    const [activeQuetionIndex,setActiveQuetionIndex]=useState(0);
     useEffect(()=>{
         GetInterviewdetails();
     },[]); 
@@ -38,11 +39,11 @@ function StartInterview({params}) {
             {/* Video and audio Component */}
             <RecordAnswereSection mockInterviewQuetion={mockInterviewQuetion} activeQuetionIndex={activeQuetionIndex} interviewData={interviewData}/>
         </div>
-        <div className='flex justify-end gap-5'>
+        <div className='flex justify-start gap-5'>
             {activeQuetionIndex>0 && 
-            <Button onClick={()=>setActiveQuetionIndex(activeQuetionIndex-1)} >Previous Quetion</Button>}
+            <Button onClick={()=>setActiveQuetionIndex(activeQuetionIndex-1)} > <ArrowBigLeft/> Previous Quetion</Button>}
             {activeQuetionIndex!=mockInterviewQuetion?.length-1 && 
-            <Button onClick={()=>setActiveQuetionIndex(activeQuetionIndex+1)}>Next Quetion</Button>}
+            <Button onClick={()=>setActiveQuetionIndex(activeQuetionIndex+1)}>Next Quetion <ArrowBigRight/> </Button>}
             {activeQuetionIndex==mockInterviewQuetion?.length-1 && 
             <Link href={'/dashboard/interview/'+interviewData?.mockId+"/feedback"}>
                 <Button>End Interview</Button>

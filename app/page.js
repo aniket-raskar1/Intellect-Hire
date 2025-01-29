@@ -2,12 +2,15 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Header from "./dashboard/_components/Header";
 import { AtomIcon, Edit, Share2 } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      <Image src={'/grid.svg'} className="absolute z-[-10] w-full" 
-      width={1200} height={300} />
+      <Link>
+        <Image src={'/grid.svg'} className="absolute z-[-10] w-full cursor-pointer" 
+        width={1200} height={300} />
+      </Link>
       <Header/>
      <section className=" z-50">
       <div>

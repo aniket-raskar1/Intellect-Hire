@@ -37,6 +37,8 @@ function Interview({ params }) {
                     <div className='p-5 border rounded-lg border-yellow-300 bg-yellow-100'>
                         <h2 className='flex gap-2 items-center text-yellow-300'><Lightbulb/><strong>Information</strong></h2>
                         <p className='my-3'>Enable Your Webcamp and Microphone to Start your AI Generated Mock Interview It has 5 quetions which you can answere and at last you will get the report on the basis of your answere NOTE: We never Record Your video , You can disable your web camp access at any time  </p>
+                        <p className='text-sm font-bold text-red-700'>1 .Record One Answer For One Quetions</p>
+                        <p className='text-sm font-bold text-red-700 pt-1'>2 .Use Headphones or Speak Loudly and Clearly</p>
                     </div>
                 </div>
                 <div>
