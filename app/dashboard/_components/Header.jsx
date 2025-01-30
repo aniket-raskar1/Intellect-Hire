@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <div className="flex p-4 items-center justify-between shadow-2xl rounded-full bg-secondary">
-      <img src={"/logo.svg"} width={100} height={120} alt="Logo" />
+      <img src={"/logo1.png"} width={150} height={120} alt="Logo" />
 
       {/* Navigation Links */}
       <ul className="hidden md:flex gap-6">

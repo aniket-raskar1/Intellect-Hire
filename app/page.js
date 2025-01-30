@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Header from "./dashboard/_components/Header";
-import { AtomIcon, Edit, Share2 } from "lucide-react";
+import { AtomIcon, Edit, Instagram, Linkedin, Share2, TwitterIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -102,6 +102,23 @@ with our AI-powered interview prep</p>
       </a>
     </div>
     </section>
+    <h1 className="flex justify-center text-3xl font-extrabold mt-10 ">Lets Connect!</h1>
+    <h2 className="flex justify-center text-md text-gray-600">follow Me on Socials</h2>
+    <div className="flex justify-center text-2xl font-bold text-gray-600 mt-10 mb-20">
+
+    <a href="https://www.instagram.com/a.n.i.k.e.t_099/" target="_blank" rel="noopener noreferrer">
+        <Instagram size={30}  className=" mx-4 hover:scale-105" />
+    </a>
+
+    <a href="https://x.com/partic1e0" target="_blank" rel="noopener noreferrer">
+      <TwitterIcon className="mx-4 hover:scale-105" size={30}/>
+    </a>
+
+    <a href="www.linkedin.com/in/aniket-raskar-86a26b296" target="_blank" rel="noopener noreferrer">
+      <Linkedin className="mx-4 hover:scale-105" size={30}/>
+    </a>
+
+    </div>
   </div>
  
 
