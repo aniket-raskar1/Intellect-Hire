@@ -96,7 +96,7 @@ vercel
 📢 **Feedback & Contact**  
 
 Your feedback helps improve **Intellect-Hire**! Please share your thoughts via the **Google Form:**  
-🗌 **[Insert Google Form Link Here]**  
+🗌 **https://docs.google.com/forms/d/e/1FAIpQLSfmOw1NtpqTY7zUNepHlIiPqke7twSK7EYYcCXYr57sg_dvLw/viewform**  
 
 For queries or collaboration, reach out to me at **your.email@example.com** or connect on [LinkedIn](https://linkedin.com/in/yourprofile).  
 
