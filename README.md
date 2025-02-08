@@ -1,6 +1,6 @@
 # 🎤 Intellect-Hire – AI-Based Mock Interview Platform  
 
-📌 **Overview**  
+📌 ***Overview***  
 
 **Intellect-Hire** is an AI-powered mock interview platform designed to help users prepare for **technical and non-technical job interviews**. The system generates **role-specific questions**, allows users to **record their answers**, and provides **automated feedback** based on their responses. The platform is optimized for **laptop usage** and ensures a seamless interview simulation experience.  
 
@@ -55,7 +55,7 @@ Additionally, **Speed Insights** ensures that the platform remains **fast and re
 1️⃣ **Clone the Repository**  
 ```sh
 https://github.com/aniket-raskar1/ai-interview-mocker.git
-cd intellect-hire
+cd your/folder
 ```
 
 2️⃣ **Install Dependencies**  
@@ -98,7 +98,7 @@ vercel
 Your feedback helps improve **Intellect-Hire**! Please share your thoughts via the **Google Form:**  
 🗌 **https://docs.google.com/forms/d/e/1FAIpQLSfmOw1NtpqTY7zUNepHlIiPqke7twSK7EYYcCXYr57sg_dvLw/viewform**  
 
-For queries or collaboration, reach out to me at **your.email@example.com** or connect on [LinkedIn](https://linkedin.com/in/yourprofile).  
+For queries or collaboration connect on [LinkedIn](www.linkedin.com/in/aniket-raskar-86a26b296).  
 
 ---
 
