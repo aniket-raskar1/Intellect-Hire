@@ -54,7 +54,7 @@ Additionally, **Speed Insights** ensures that the platform remains **fast and re
 
 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/intellect-hire.git
+https://github.com/aniket-raskar1/ai-interview-mocker.git
 cd intellect-hire
 ```
 
