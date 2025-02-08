@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎤 Intellect-Hire – AI-Based Mock Interview Platform  
 
-## Getting Started
+📌 **Overview**  
 
-First, run the development server:
+**Intellect-Hire** is an AI-powered mock interview platform designed to help users prepare for **technical and non-technical job interviews**. The system generates **role-specific questions**, allows users to **record their answers**, and provides **automated feedback** based on their responses. The platform is optimized for **laptop usage** and ensures a seamless interview simulation experience.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+🌟 **Key Features**  
+
+👉 **Unlimited Mock Interviews** – Practice as many times as needed for any job role.  
+👉 **Role-Specific Questions** – Get customized interview questions based on job title and experience.  
+👉 **Answer Recording** – Users can record responses for self-evaluation and improvement.  
+👉 **Automated Feedback** – AI-driven analysis and rating of answers to enhance performance.  
+👉 **User-Friendly UI** – Clean and intuitive interface with smooth navigation.  
+👉 **Performance Analytics** – Insights on strengths and areas for improvement.  
+
+---
+
+🛠 **Tech Stack Used**  
+
+- **Frontend:** Next.js (App Router – `page.js`, `layout.js`)  
+- **Styling:** Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Deployment:** Vercel  
+- **Analytics & Performance Monitoring:** Vercel Analytics & Speed Insights  
+- **Data Storage:** Google Cloud Storage (for recorded responses)  
+
+---
+
+📈 **How It Works**  
+
+1️⃣ **Enter Job Role & Experience** – The system customizes questions based on user input.  
+2️⃣ **Mock Interview Begins** – Five AI-generated questions appear one by one.  
+3️⃣ **Record Responses** – Users can record their answers in real-time.  
+4️⃣ **Receive Feedback** – AI evaluates answers and provides **a rating, correct responses, and improvement suggestions**.  
+
+---
+
+📊 **Performance Insights & Analytics**  
+
+To track usage and improve the platform, **Vercel Analytics** is integrated for:  
+- User activity tracking  
+- Page performance monitoring  
+- Engagement metrics  
+
+Additionally, **Speed Insights** ensures that the platform remains **fast and responsive**, providing a smooth experience.  
+
+---
+
+🖥️ **Deployment & Setup**  
+
+### **Local Installation**  
+
+1️⃣ **Clone the Repository**  
+```sh
+git clone https://github.com/your-username/intellect-hire.git
+cd intellect-hire
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2️⃣ **Install Dependencies**  
+```sh
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3️⃣ **Run the Development Server**  
+```sh
+npm run dev
+```
+Visit `http://localhost:3000/` in your browser.  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+🚀 **Deploying to Vercel**  
 
-To learn more about Next.js, take a look at the following resources:
+1️⃣ Install Vercel CLI  
+```sh
+npm install -g vercel
+```
+2️⃣ Deploy the project  
+```sh
+vercel
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+📌 **Future Improvements**  
 
-## Deploy on Vercel
+🔹 **AI-Based Question Difficulty Adjustment** – Adaptive difficulty based on user performance.  
+🔹 **Speech-to-Text Analysis** – Evaluating verbal fluency and accuracy.  
+🔹 **More Job-Specific Domains** – Expanding the question database for different industries.  
+🔹 **Multi-Device Compatibility** – Optimizing for mobile and tablet users.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+📢 **Feedback & Contact**  
+
+Your feedback helps improve **Intellect-Hire**! Please share your thoughts via the **Google Form:**  
+🗌 **[Insert Google Form Link Here]**  
+
+For queries or collaboration, reach out to me at **your.email@example.com** or connect on [LinkedIn](https://linkedin.com/in/yourprofile).  
+
+---
+
+🌟 **If you find this project helpful, give it a star on GitHub!**  
+
