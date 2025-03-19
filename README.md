@@ -24,7 +24,7 @@
 - **Animations:** Framer Motion  
 - **Deployment:** Vercel  
 - **Analytics & Performance Monitoring:** Vercel Analytics & Speed Insights  
-- **Data Storage:** Google Cloud Storage (for recorded responses)  
+   
 
 ---
 
